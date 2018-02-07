@@ -1,0 +1,38 @@
+.result {
+	display: inline-block;
+	width: 20px;
+	vertical-align: bottom;
+	text-align: center;
+	position: relative;
+	margin: 60px 5px;
+	box-shadow: 5px -3px 5px rgba(0, 0, 0, 0.3);
+	border: 1px solid #ccc;
+}
+
+.result-char {
+	position: absolute;
+	bottom: -20px;
+	width: 20px;
+	display: block;
+}
+
+.result-percent {
+	display: block;
+	position: absolute;
+	top: -40px;
+	left: -10px;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	writing-mode: lr-tb;
+	font-size: 14px;
+}
+
+.results-cont {
+	height: 400px;
+	vertical-align: bottom;
+}
+
+.btn {
+	display: block;
+}
